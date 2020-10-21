@@ -25,7 +25,7 @@
    ![Triangulo](https://github.com/LucasJurani/Computacao_Grafica/blob/main/1.%20Rasteriza%C3%A7%C3%A3o/IMG/triangulo.PNG)
     
 ## 1.4 Discussão de Resultados e Dificuldades
-  A função PutPixel, de fato foi bem simples de ser feita, contudo a função DrawLine não foi tão fácil. Primeiramente foi feito o código somente para o primeiro octante, e já integrando-o com a Interpolação Linear. Contudo, quando foi feita a expansão para os outros octantes foi encontrada uma certa dificuldade para a implementação de fato. A dificuldade foi superada com um material disponibilizado pela UNIVASF, do professor Jorge Cavalcanti.
+  A função PutPixel, de fato foi bem simples de ser feita, contudo a função DrawLine não foi tão fácil. Primeiramente foi feito o código somente para o primeiro octante, e já integrando-o com a Interpolação Linear. Contudo, quando foi feita a expansão para os outros octantes foi encontrada uma certa dificuldade para a implementação de fato. A dificuldade foi superada com um material disponibilizado pela UNIVASF, do professor Jorge Cavalcanti. Resolvidos os problemas na função DrawLine, a função DrawTriangle foi feita, e foi relativamente rápido de ser feito, visto que ela é feita de chamadas do DrawLine.
   
 ## 1.5 Referências
 
