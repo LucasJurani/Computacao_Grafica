@@ -7,4 +7,4 @@
 ##1.1 PutPixel
   A primeira função desenvolvida, rasterização de um ponto, recebe como parâmetros as coordenadas x,y e cor. Em que foram feitos dois STRUCT's, um para definir as coordenadas x e y dos pontos, e o outro Struct para receber os parâmetros RGBA de cor do pixel.
   Na figura abaixo podemos ver o resultado, vários pontos com cores diferentes.
-  !https://github.com/LucasJurani/Computacao_Grafica/blob/main/1.%20Rasteriza%C3%A7%C3%A3o/IMG/opengl1putpixel.PNG
+  ![PutPixel](https://github.com/LucasJurani/Computacao_Grafica/blob/main/1.%20Rasteriza%C3%A7%C3%A3o/IMG/opengl1putpixel.PNG)
