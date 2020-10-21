@@ -19,8 +19,8 @@
   ![RetasInterpola](https://github.com/LucasJurani/Computacao_Grafica/blob/main/1.%20Rasteriza%C3%A7%C3%A3o/IMG/retas%20com%20interp.PNG)
   
   ## 1.3 DrawTriangle
-    
-    Para a função que rasteriza triângulos, pegamos a função DrawLine, e traçamos 3 retas ligandos cada ponto, isto é, uma reta A->B, outra B->C e outra C->A. Dessa forma foi feita a função DrawTriangle, utilizando 3 chamadas da função DrawLine.
+   Para a função que rasteriza triângulos, pegamos a função DrawLine, e traçamos 3 retas ligandos cada ponto, isto é, uma reta A->B, outra B->C e outra C->A. Dessa forma foi feita a função DrawTriangle, utilizando 3 chamadas da função DrawLine.
     Na figura abaixo podemos ver um triângulo gerado por esta função.
-    
     ![Triangulo](https://github.com/LucasJurani/Computacao_Grafica/blob/main/1.%20Rasteriza%C3%A7%C3%A3o/IMG/triangulo.PNG)
+    
+   
