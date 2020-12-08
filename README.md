@@ -50,24 +50,28 @@ http://www.univasf.edu.br/~jorge.cavalcanti/comput_graf04_prim_graficas2.pdf
   Nesta parte, trabalhamos com a Matriz Model de forma que com a mudança de alguns parâmetros esperavamos obter uma cena com escala diferente da cena original. Os fatores de escala utilizados foram (x, y, z) = (1/3,3/2,1). Aplicando esses fatores obtemos o seguinte código com a seguinte cena.
   
   ![Codigo1](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/code1.PNG)
+  
   ![Cena1](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/compiled1.PNG)
   
   ## 3.2. Translação
   Modificamos novamente a Matriz Model, mas agora movemos os objetos da cena de forma que eles ficassem mais para o lado direito da cena. Com o fator de Translação (x, y, z) = (1,0,0), obtemos o seguinte resultado.
   
   ![Codigo2](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/code2.PNG)
+  
   ![Cena2](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/compiled2.PNG)
   
   ## 3.3 Projeção Perspectiva
   Modificamos a Matriz Projection de forma que o triângulo vermelho fique a frente do triângulo azul. Utilizando a distância d (distância do centro de projeção até a origem do sistema de coordenadas da câmera) igual a 1/8, obtivemos o seguinte resultado.
   
   ![Codigo3](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/code3.PNG)
+  
   ![Cena3](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/compiled3.PNG)
   
   ## 3.4 Posição da Câmera
   Neste, mantemos a distorção perspectiva feita na Matriz de Projeção no item anterior, e então, modificamos a Matriz View de forma que os dois triângulos sejam agora vistos mais na diagonal. Para isso foram implementados duas matrizes, a matriz B da base da câmera e então calculamos a sua transposta e a outra matriz T que translada a base da câmera. Após isso, foi implementado a Matriz View com o produtos das matrizes bT e T e então aplicamos a transformação da MViews sobre os vértices dos triângulos. Com os vetores Posição da Câmera = (−1/10,1/10,1/10),  Vetor Up da Câmera = (0,1,0),  Ponto para o qual câamera está apontando = (0,0,−1), obtivemos o seguinte resultado:
   
   ![Codigo4](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/code4.PNG)
+  
   ![Cena4](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/compiled4.PNG)
   
   ## 3.5 Transformações Livres
