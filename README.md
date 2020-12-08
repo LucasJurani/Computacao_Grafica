@@ -3,9 +3,9 @@
 ## 1. OpenGL Moderno
   No ínicio desta disciplina, foi proposta um trabalho com os objetivos de verificar se o ambiente de desenvolvimento do OpenGL 3.3 está corretamente configurado e nos familiarizar com a estrutura de um programa OpenGL.
   ## 1.1 Resultados Obtidos
-    O código disponibilizado pelo professor foi compilado, nenhum erro foi detectado, apenas alguns warnings foram imprimidos na tela, contudo isso já havia sido informado que iria acontecer. Após a compilação, quando executamos foi imprimido na tela a seguinte imagem:
+   O código disponibilizado pelo professor foi compilado, nenhum erro foi detectado, apenas alguns warnings foram imprimidos na tela, contudo isso já havia sido informado que iria acontecer. Após a compilação, quando executamos foi imprimido na tela a seguinte imagem:
     
-    ![OpenGL](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/atividade1.PNG)
+   ![OpenGL](https://github.com/LucasJurani/Computacao_Grafica/blob/main/IMAGENS%20ICG/atividade1.PNG)
 
 
 ## 2. Rasterização
