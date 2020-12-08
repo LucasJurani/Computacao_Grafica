@@ -12,7 +12,7 @@
   A primeira função desenvolvida, rasterização de um ponto, recebe como parâmetros as coordenadas x,y e cor. Em que foram feitos dois STRUCT's, um para definir as coordenadas x e y dos pontos, e o outro Struct para receber os parâmetros RGBA de cor do pixel.
   Na figura abaixo podemos ver o resultado, vários pontos com cores diferentes.
   
-  ![PutPixel](https://github.com/LucasJurani/Computacao_Grafica/blob/main/1.%20Rasteriza%C3%A7%C3%A3o/IMG/opengl1putpixel.PNG)
+  ![PutPixel](https://github.com/LucasJurani/Computacao_Grafica/blob/main/2.%20Rasteriza%C3%A7%C3%A3o/IMG/opengl1putpixel.PNG)
 
 
  # 2.2 DrawLine
@@ -20,13 +20,13 @@
   Outra coisa proposta para a Rasterização das linhas foi a utilização da Interpolação Linear nas cores que compõe as retas.
   Na figura abaixo vemos 4 com interpolação linear.
   
-  ![RetasInterpola](https://github.com/LucasJurani/Computacao_Grafica/blob/main/1.%20Rasteriza%C3%A7%C3%A3o/IMG/retas%20com%20interp.PNG)
+  ![RetasInterpola](https://github.com/LucasJurani/Computacao_Grafica/blob/main/2.%20Rasteriza%C3%A7%C3%A3o/IMG/retas%20com%20interp.PNG)
   
   # 2.3 DrawTriangle
    Para a função que rasteriza triângulos, pegamos a função DrawLine, e traçamos 3 retas ligandos cada ponto, isto é, uma reta A->B, outra B->C e outra C->A. Dessa forma foi feita a função DrawTriangle, utilizando 3 chamadas da função DrawLine.
     Na figura abaixo podemos ver um triângulo gerado por esta função.
     
-   ![Triangulo](https://github.com/LucasJurani/Computacao_Grafica/blob/main/1.%20Rasteriza%C3%A7%C3%A3o/IMG/triangulo.PNG)
+   ![Triangulo](https://github.com/LucasJurani/Computacao_Grafica/blob/main/2.%20Rasteriza%C3%A7%C3%A3o/IMG/triangulo.PNG)
     
   # 2.4 Discussão de Resultados e Dificuldades
   A função PutPixel, de fato foi bem simples de ser feita, contudo a função DrawLine não foi tão fácil. Primeiramente foi feito o código somente para o primeiro octante, e já integrando-o com a Interpolação Linear. Contudo, quando foi feita a expansão para os outros octantes foi encontrada uma certa dificuldade para a implementação de fato. A dificuldade foi superada com um material disponibilizado pela UNIVASF, do professor Jorge Cavalcanti. Resolvidos os problemas na função DrawLine, a função DrawTriangle foi feita, e foi relativamente rápido de ser feito, visto que ela é feita de chamadas do DrawLine.
